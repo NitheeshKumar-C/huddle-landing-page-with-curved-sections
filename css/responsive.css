@@ -1,0 +1,87 @@
+@media(max-width:900px){
+    .intro-section p{
+        padding: 0 5%;
+        width: 100%;
+    }
+}
+@media(max-width:768px){
+    .logo{
+        width: 7rem;
+    }
+    .f-img{
+        margin: 10% auto;
+        order: 1;
+        width: 100%;
+    }
+    .intro-section img{
+        width: 100%;
+        padding: 0 5%;
+    }
+    .f-des{
+        text-align: center;
+        order: 2;
+        padding: 0;
+        margin: 0;
+    }
+    .f-des p{
+        font-size: 0.95rem;
+        padding: 1rem 0 2rem 0;
+        margin: 0;
+    }
+    .f-img-left{
+        margin:7% auto;
+        width: 60%;
+    }
+    .intro-section h1{
+        font-size: 1.5rem;
+        padding: 5%;
+    }
+    .nav-section button{
+        padding: 5px 15px;
+    }
+    .popularity div{
+        width: fit-content;
+    }
+    .popularity div p{
+        text-align: center;
+    }
+    .join{
+        margin: 20% 0;
+    }
+    .Newsletter{
+        order: 1;
+    }
+    .sec-footer-1{
+        order: 2;
+    }
+    .Newsletter{
+        margin: 5rem 0;
+    }
+    .in{
+        margin: 0;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .subscribe{
+        float: right;
+    }
+    .about-des p{
+        padding: 0.5rem 0;
+    }
+    .sm{
+        margin: 2rem 0;
+    }
+    .sm i{
+        margin-right: 1rem;
+    }
+    
+}
+@media(max-width:600px){
+    .f-img,.f-img-left{
+        width: 80%;
+    }
+    .intro-section button,.join button{
+        margin: 3%;
+    }
+    
+}
