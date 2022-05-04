@@ -103,7 +103,9 @@
     margin: 10% 0;
     text-align: center;
 }
-
+.start-free{
+    margin-top: 20px;
+}
 
 .logo-1{
     width: 10rem;
@@ -130,9 +132,13 @@
     color: white;
     background-color: hsl(192, 100%, 9%);
 }
+form{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 3%;
+}
 .in{
     outline: none;
-    margin-top: 3%;
     margin-right: 30px;
     border: none;
     border-radius: 5px;
@@ -159,9 +165,19 @@
     visibility: visible;
 }
 .sm{
-    margin-top:3%;
+    margin-top:3rem;
 }
 .sm i{
     font-size: 1.5rem;
-    margin-right: 10px;
+    margin-right: 20px;
+}
+.sm i:hover{
+    cursor: pointer;
+    color: rgb(79, 182, 255);
+}
+button:hover{
+    background-color: hsl(315, 100%, 81%);
+}
+.top-btn:hover{
+    background-color: hsl(314, 100%, 96%);
 }
